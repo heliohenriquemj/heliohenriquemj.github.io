@@ -32,8 +32,25 @@ footer{
   background-color: #1d3557;
 }
 
-@media screen and (max-width: 480px) {
-  .form-container {
-      width: 90%;
+@media only screen and (max-width: 600px) {
+  header {
+      padding: 10px;
+  }
+
+  nav ul li {
+      display: block;
+      margin: 10px 0;
+  }
+
+  main {
+      padding: 10px;
+  }
+
+  section {
+      margin-bottom: 10px;
+  }
+
+  footer {
+      padding: 10px;
   }
 }
